@@ -34,7 +34,7 @@
 ### 實機遊玩示範 (Live Gameplay)
 螢幕上的黃色圓球對應開發板上的遊戲邏輯，隨著玩家按鍵進行發球與擊球。
 
-![Gameplay]((https://youtu.be/0yb1rzaubnc))
+![Gameplay](https://youtu.be/0yb1rzaubnc)
 
 
 
