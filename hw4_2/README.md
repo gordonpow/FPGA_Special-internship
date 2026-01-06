@@ -15,12 +15,26 @@
 3.  **高解析度輸出:**
     標準 VGA 640x480 @ 60Hz 時序控制。
 
+## ⚙️ 硬體腳位配置 (Pin Assignment)
+| Signal Name | FPGA Pin | Description |
+| :--- | :--- | :--- |
+| **i_clk** | `Y9` | System Clock (100MHz) |
+| **i_rst** | `F22` | Reset Button |
+| **btn_l** | `T18` | Left Player Button |
+| **btn_r** | `R16` | Right Player Button |
+| **hsync** | `V4` | VGA Horizontal Sync |
+| **vsync** | `U6` | VGA Vertical Sync |
+| **Red [3:0]** | `AB11`, `U4`... | VGA Red Channel |
+| **Green [3:0]** | `AB5`, `AB1`... | VGA Green Channel |
+| **Blue [3:0]** | `V5`, `T4`... | VGA Blue Channel |
+
+
 ## 📸 成果展示 (Demo)
 
 ### 實機遊玩示範 (Live Gameplay)
 螢幕上的黃色圓球對應開發板上的遊戲邏輯，隨著玩家按鍵進行發球與擊球。
 
-![Gameplay](video/20251210_180950.mp4)
+![Gameplay]((https://youtu.be/0yb1rzaubnc))
 
 
 
@@ -51,6 +65,8 @@ else
     -- 繪製深藍色背景
     red <= "0000"; green <= "0000"; blue <= "0010";
 end if;
+```
+
 
 
 
