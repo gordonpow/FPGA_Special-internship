@@ -73,7 +73,7 @@
 ## 📈 模擬結果 (Simulation)
 展示 `upbnd` (Duty) 隨時間變化的三角波形，以及對應的 PWM 輸出密度變化。
 
-![Waveform](images/waveform.png)
+![Waveform](img/waveform.png)
 > **圖說：** 可以看到 `upbnd1` 呈現階梯狀上升與下降，對應的 `o_led` 脈衝寬度也隨之改變。
 
 ## 📜 License
