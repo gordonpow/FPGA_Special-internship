@@ -1,6 +1,6 @@
 # HW1: Sequential Multi-Stage Counters (多階段循序計數器)
 
-![Verilog](https://img.shields.io/badge/Language-Verilog-blue)
+![VHDL](https://img.shields.io/badge/Language-VHDL-blue)
 ![FPGA](https://img.shields.io/badge/Device-FPGA-orange)
 
 ## 📖 專案簡介 (Introduction)
